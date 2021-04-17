@@ -12,7 +12,7 @@
                 <DataTemplate>
                     <ImageCell ImageSource="{Binding Logo}"
                      Text="{Binding Name}"
-                     TextColor="Black"/>
+                     TextColor="Blac"/>
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>

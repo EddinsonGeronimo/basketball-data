@@ -7,8 +7,8 @@ The project's requirements board can be accessed in [Trello](https://trello.com/
 ### UI Screenshots
 | | | |
 |---|---|---|
-![screen1](Screenshots/Screenshot_20210417-004139.png) | ![screen1](Screenshots/Screenshot_20210417-005154.png) | ![screen1](Screenshots/Screenshot_20210417-005158.png) | 
-![screen1](Screenshots/Screenshot_20210417-003316.png)
+![screen1](Screenshots/Screenshot_20210417-004139.png) | ![screen1](Screenshots/Screenshot_20210417-051426.png) | ![screen1](Screenshots/Screenshot_20210417-005158.png) | 
+![screen1](Screenshots/Screenshot_20210417-003316.png) | ![screen1](Screenshots/Screenshot_20210417-052230.png)
 ### Team
 - Eddinson Geronimo De La Rosa (1072957)
 - Gabriel Alejandro Cruz Joa (1074387)

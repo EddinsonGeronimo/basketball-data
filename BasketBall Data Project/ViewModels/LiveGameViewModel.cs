@@ -22,13 +22,10 @@ namespace BasketBall_Data_Project.ViewModels
         private IEventApiService _eventApiService;
         public bool IsBusy { get; set; }
         public bool IsNotBusy => !IsBusy;
-        public ICommand ShowDetails { get; }
-        public INavigationService _navigationService { get; set; }
 
         public LiveGameViewModel(INavigationService navigationService, IPageDialogService pageDialogService, IEventApiService eventApiService) : base(navigationService, pageDialogService)
         {
             _eventApiService = eventApiService;
-            _navigationService = navigationService;
             LoadLiveGames();
         }
 

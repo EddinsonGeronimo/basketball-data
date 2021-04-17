@@ -29,6 +29,9 @@ namespace BasketBall_Data_Project
             containerRegistry.RegisterForNavigation<CustomTabbedPage>(NavigationConstants.Tabs);
             containerRegistry.RegisterForNavigation<NavigationPage>(NavigationConstants.Navigate);
             containerRegistry.RegisterForNavigation<LeaguePage>(NavigationConstants.League);
+            containerRegistry.RegisterForNavigation<EventPage>(NavigationConstants.Event);
+            containerRegistry.RegisterForNavigation<TeamPage>(NavigationConstants.Team);
+            containerRegistry.RegisterForNavigation<TeamDetailsPage>(NavigationConstants.TeamDetails);
 
             containerRegistry.RegisterForNavigation<LeaguePage, LeagueViewModel>(NavigationConstants.League);
             containerRegistry.RegisterForNavigation<EventPage, LiveGameViewModel>(NavigationConstants.Event);

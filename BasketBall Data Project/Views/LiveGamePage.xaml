@@ -4,15 +4,17 @@
              x:Class="BasketBall_Data_Project.Views.EventPage"
              Title="{Binding Title}">
 
-    <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
-        <ActivityIndicator IsRunning="{Binding IsBusy}" IsVisible="{Binding IsBusy}"/>
-        <ListView x:Name="TeamsList" IsVisible="{Binding IsNotBusy}" 
+    <StackLayout HorizontalOptions="Center"
+                 VerticalOptions="Center">
+        <ActivityIndicator IsRunning="{Binding IsBusy}" 
+                           IsVisible="{Binding IsBusy}"/>
+        <ListView IsVisible="{Binding IsNotBusy}" 
                   ItemsSource="{Binding Events}">
             <ListView.ItemTemplate>
                 <DataTemplate>
-                    <ImageCell ImageSource="{Binding Logo}"
-                     Text="{Binding Name}"
-                     TextColor="Black"/>
+                    <TextCell Text="{Binding Name}"
+                              TextColor="Black"
+                              Detail="{Binding StartAt}"/>
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>

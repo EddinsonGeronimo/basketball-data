@@ -10,7 +10,7 @@ namespace BasketBall_Data_Project.Services
 {
     public class EventApiService : IEventApiService
     {
-        public string Date = DateTime.Now.ToString("yyyy-MM-dd");
+        //public string Date = DateTime.Now.ToString("yyyy-MM-dd");
         ISerializerService _serializerService;
         public EventApiService(ISerializerService serializerService)
         {
@@ -23,7 +23,7 @@ namespace BasketBall_Data_Project.Services
             var request = new HttpRequestMessage
             {
                 Method = HttpMethod.Get,
-                RequestUri = new Uri($"{Config.EventApiUrl}{Date}"),
+                RequestUri = new Uri($"{Config.ApiUrl}/events"),//{Date}"),
                 Headers =
                 {
                     { Config.ApiKeyHeader, Config.ApiKey },

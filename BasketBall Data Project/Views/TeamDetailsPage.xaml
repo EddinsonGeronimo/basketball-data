@@ -5,29 +5,31 @@
              Title="{Binding Name}">
     <ContentPage.Content>
         <Grid RowDefinitions="2*,*,*,*,*"
-            ColumnDefinitions="*">
-            <Image Grid.Row="0"
-               Source="{Binding Logo}"/>
-            <Label Grid.Row="1"
-               Text="{Binding Name}"
-               FontAttributes="Bold"
-               FontSize="Large"
-               VerticalOptions="Center"
-               HorizontalOptions="Center"/>
-            <Grid Grid.Row="2"
-              RowDefinitions="*,*"
               ColumnDefinitions="*">
+            <Image Grid.Row="0"
+                   Source="{Binding Logo}"
+                   VerticalOptions="Center"
+                   HorizontalOptions="Center"/>
+            <Label Grid.Row="1"
+                   Text="{Binding Name}"
+                   FontAttributes="Bold"
+                   FontSize="Large"
+                   VerticalOptions="Center"
+                   HorizontalOptions="Center"/>
+            <Grid Grid.Row="2"
+                  RowDefinitions="*,*"
+                  ColumnDefinitions="*">
                 <Label Grid.Row="0"
-               Text="Country"
-               FontAttributes="Bold"
-               TextColor="#000000"
-               VerticalOptions="Center"
-               HorizontalOptions="Center"/>
+                       Text="Country"
+                       FontAttributes="Bold"
+                       TextColor="#000000"
+                       VerticalOptions="Center"
+                       HorizontalOptions="Center"/>
                 <Label Grid.Row="1"
-               Text="{Binding Country}"
-               FontAttributes="Bold"
-               VerticalOptions="Start"
-               HorizontalOptions="Center"/>
+                       Text="{Binding Country}"
+                       FontAttributes="Bold"
+                       VerticalOptions="Start"
+                       HorizontalOptions="Center"/>
             </Grid>
         </Grid>
     </ContentPage.Content>

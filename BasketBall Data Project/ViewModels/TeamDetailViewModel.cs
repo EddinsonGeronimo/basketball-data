@@ -16,11 +16,7 @@ namespace BasketBall_Data_Project.ViewModels
         public string Name { get; set; }
         public string Country { get; set; }
         public string Logo { get; set; }
-
-        public TeamDetailsViewModel(INavigationService navigationService, IPageDialogService pageDialogService, TeamApiService teamApiService) : base(navigationService, pageDialogService)
-        { 
-        }
-
+        public TeamDetailsViewModel(INavigationService navigationService, IPageDialogService pageDialogService, TeamApiService teamApiService) : base(navigationService, pageDialogService){}
         public void OnNavigatedFrom(INavigationParameters parameters) { }
         public void OnNavigatedTo(INavigationParameters parameters)
         {

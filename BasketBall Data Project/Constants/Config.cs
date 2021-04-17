@@ -8,7 +8,6 @@ namespace BasketBall_Data_Project.Constants
     {
         // Api URL
         public const string ApiUrl = "https://sportscore1.p.rapidapi.com/sports/3";
-        public const string EventApiUrl = "https://sportscore1.p.rapidapi.com/events/date/";
 
         // Tabs' Titles
         public const string TeamTitle = "Teams";
@@ -20,6 +19,6 @@ namespace BasketBall_Data_Project.Constants
         public const string ApiHostHeader = "x-rapidapi-host";
         public const string ApiKeyHeader = "x-rapidapi-key";
         public const string ApiHost = "sportscore1.p.rapidapi.com";
-        public const string ApiKey = "5db3d1a402mshfaac0a322055c8bp160d52jsn28ee48f46c4e";
+        public const string ApiKey = "9ded05c9aamsh3b4b3cdf643f767p1bf8d4jsnfffa5e85dd21";
     }
 }

@@ -19,9 +19,10 @@
                 IsVisible="{Binding IsDataVisible}" 
                 Grid.Row="0">
                 <ListView.Behaviors>
-                    <prism:EventToCommandBehavior EventName="ItemTapped"
-                                        Command="{Binding ShowDetails}"
-                                        EventArgsParameterPath="Item"/>
+                    <prism:EventToCommandBehavior 
+                      EventName="ItemTapped"
+                      Command="{Binding ShowDetails}"
+                      EventArgsParameterPath="Item"/>
                 </ListView.Behaviors>
                 <ListView.ItemTemplate>
                     <DataTemplate>
